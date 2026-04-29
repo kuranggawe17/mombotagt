@@ -1,0 +1,47 @@
+{
+  "name": "Telegram File Storage Bot",
+  "description": "A Telegram bot to store, batch, and share files via unique links with expiry and content protection support.",
+  "repository": "https://github.com/yourusername/Telegram-File-Storage-Bot",
+  "keywords": ["telegram", "bot", "file-storage", "pyrogram", "python"],
+  "env": {
+    "API_ID": {
+      "description": "Telegram API ID from my.telegram.org",
+      "required": true
+    },
+    "API_HASH": {
+      "description": "Telegram API Hash from my.telegram.org",
+      "required": true
+    },
+    "BOT_TOKEN": {
+      "description": "Bot token from @BotFather",
+      "required": true
+    },
+    "BOT_USERNAME": {
+      "description": "Bot username without @",
+      "required": true
+    },
+    "STORAGE_CHANNEL": {
+      "description": "Private channel ID for file storage",
+      "required": true
+    },
+    "OWNER_ID": {
+      "description": "Your Telegram user ID",
+      "required": true
+    },
+    "WELCOME_VIDEO_URL": {
+      "description": "Optional welcome video URL",
+      "required": false
+    }
+  },
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "eco"
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
