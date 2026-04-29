@@ -57,7 +57,7 @@ Before deploying, you'll need:
 
 The quickest way to get started:
 
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/yourusername/Telegram-File-Storage-Bot)
+[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/MD-TECH-HACKER/Telegram-File-Storage-Bot)
 
 > **After deploying:** Go to your app's **Resources** tab, disable the `web` dyno (if any), and enable the `worker` dyno.
 
@@ -65,7 +65,7 @@ The quickest way to get started:
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/Telegram-File-Storage-Bot.git
+git clone https://github.com/MD-TECH-HACKER/Telegram-File-Storage-Bot.git
 cd Telegram-File-Storage-Bot
 
 # Login to Heroku
@@ -97,7 +97,7 @@ heroku ps:scale worker=1
 
 ```bash
 # Clone the repo
-git clone https://github.com/yourusername/Telegram-File-Storage-Bot.git
+git clone https://github.com/MD-TECH-HACKER/Telegram-File-Storage-Bot.git
 cd Telegram-File-Storage-Bot
 
 # Install Python dependencies
@@ -175,7 +175,7 @@ sudo systemctl start filebot
 ### Build & Run
 
 ```bash
-git clone https://github.com/yourusername/Telegram-File-Storage-Bot.git
+git clone https://github.com/MD-TECH-HACKER/Telegram-File-Storage-Bot.git
 cd Telegram-File-Storage-Bot
 
 # Build the image

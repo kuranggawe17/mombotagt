@@ -1,7 +1,7 @@
 {
   "name": "Telegram File Storage Bot",
   "description": "A Telegram bot to store, batch, and share files via unique links with expiry and content protection support.",
-  "repository": "https://github.com/yourusername/Telegram-File-Storage-Bot",
+  "repository": "https://github.com/MD-TECH-HACKER/Telegram-File-Storage-Bot",
   "keywords": ["telegram", "bot", "file-storage", "pyrogram", "python"],
   "env": {
     "API_ID": {
