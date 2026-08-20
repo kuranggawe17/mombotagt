@@ -11,12 +11,12 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton, 
 from pyrogram.errors import RPCError
 
 # === CONFIGURATION (from environment variables) ===
-API_ID = int(os.environ.get("API_ID", 0))
-API_HASH = os.environ.get("API_HASH", "")
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
-BOT_USERNAME = os.environ.get("BOT_USERNAME", "YourBotUsername")
-STORAGE_CHANNEL = int(os.environ.get("STORAGE_CHANNEL", 0))
-OWNER_ID = int(os.environ.get("OWNER_ID", 0))
+API_ID = int(os.environ.get("API_ID", 35661527))
+API_HASH = os.environ.get("API_HASH", "bb3cf64c50f8019affb4936eb7cee463")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "8831885673:AAGgfERJG3lr8273xx_2XLHQksIlz7vQjxo")
+BOT_USERNAME = os.environ.get("BOT_USERNAME", "MOMVIDBot")
+STORAGE_CHANNEL = int(os.environ.get("STORAGE_CHANNEL", -1004363892481))
+OWNER_ID = int(os.environ.get("OWNER_ID", 8109743487))
 WELCOME_VIDEO_URL = os.environ.get("WELCOME_VIDEO_URL", "")
 
 # === FILE PATHS ===
